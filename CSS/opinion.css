@@ -1,0 +1,146 @@
+body {
+    font-family: 'Lexend', sans-serif ;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color:#35163e;
+    color: #671386;
+    padding: 5px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: #000000;
+    color: #FFF;
+    padding: 16px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+nav a {
+    color: #FFF;
+    text-decoration: none;    
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main{
+    padding: 50px;
+}
+
+.formula{
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.form{
+    margin: 30px;
+}
+
+.form .ingresar{
+    padding: 10px 0;
+}
+
+
+.form .ingresar input{
+    position: relative;
+    height: 40px;
+    width: 100%;
+    outline: none;
+    font-size: 20px;
+    color: #707070;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.recomendacion{
+    padding: 10px 0;
+}
+
+.check{
+    display: inline-block;
+    margin: 10px 0px;
+}
+
+.check .box{
+    margin-left: 40px;
+    
+}
+
+.check input{
+    cursor: pointer;
+    accent-color: #16182c;
+    border-radius: 50%;
+}
+
+.genero select{
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.paquete{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+
+.paquete label{
+    padding: 10px 0;
+}
+
+.paquete select{
+    padding: 2px;
+    width: 40%;
+    border: #000000  solid 2px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+.form button {
+    height: 55px;
+    width: 101%;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background: #16182c;
+    border-radius: 10px;
+  }
+  
+.form button:hover {
+    background: rgb(35, 53, 156);
+    color: #ffee00;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&family=Lexend:wght@300&display=swap" rel="stylesheet">	
+    <link rel="stylesheet" href="../CSS/opinion.css">
+    <title>Opinion</title>
+</head>
+<body>
+    <header>
+		<h1>Formulario</h1>
+	</header>
+
+	<nav>
+		<ul>
+			 <li><a href="../index.html">Inicio</a></li>
+			 <li><a href="scripts.html">Scripts</a></li>
+			 <li><a href="opinion.html">Opinion</a></li>
+		</ul>
+	</nav>
+<main>
+    <section class="formula">
+        <form class="form">
+            <div class="ingresar">
+            <label>Ingrese su nombre</label>
+            <input type="text" name="nombre">
+            </div>
+
+            <div class="ingresar">
+            <label>Ingrese su correo electronico</label>
+            <input type="email" name="correo">
+            </div>
+
+            <div class="ingresar">
+            <label>¿Porque te intereso esta web?</label>
+            <input type="text" name="deporte">
+            </div>
+
+            <div class="recomendacion">
+            <label>¿Como te enteraste de nosotros?</label>
+            <div class="check">
+            <input type="checkbox" name="box">Internet
+            <input type="checkbox" name="box2" class="box">Un conocido me lo recomendo
+            <input type="checkbox" name="box3" class="box">Otros motivos
+            </div>
+            </div>
+
+            <div class="genero">
+            <label>Género</label>
+            <select name="genero">
+            <option>Masculino</option>
+            <option>Femenino</option>
+            </select>
+            </div>
+
+            <div class="paquete">
+            <label>¿Que te parecio esta web?</label>
+            <select multiple name="categorias">
+            <option value="opcion">Excelente</option>
+            <option value="opcion">Muy bueno</option>
+            <option value="opcion">Bueno</option>
+            <option value="opcion">Malo</option>
+            </select>
+            </div>
+            
+            <div class="ingresar">
+            <label>Edita tu descripción</label>
+            <input type="text" name="desc">
+            </p>
+            </div>
+            <button>Enviar</button>
+        </form>
+    </section>
+</main>
+</body>
+</html>
